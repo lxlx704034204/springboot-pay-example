@@ -1,3 +1,12 @@
+
+
+https://opendocs.alipay.com/open/200/105311#s2  如何使用沙箱环境
+http://localhost:8080/gotoWapPage
+
+
+
+
+
 # 功能
 该example主要集成了支付宝支付和微信支付，其中支付宝支付使用的是沙箱环境，微信支付使用的是demo中的测试账号，目前已经接入的支付类型如下：
 

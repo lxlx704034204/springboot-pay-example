@@ -45,7 +45,7 @@ public class AlipayConfiguration {
 	 */
 	@Bean
 	public AlipayClient alipayClient(){
-		return new DefaultAlipayClient(properties.getGatewayUrl(),
+		return new DefaultAlipayClient(properties.getGatewayUrl(),//网关
 				properties.getAppid(),
 				properties.getAppPrivateKey(),
 				properties.getFormate(),

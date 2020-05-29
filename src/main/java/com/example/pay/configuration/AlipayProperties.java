@@ -17,7 +17,7 @@ import javax.annotation.PostConstruct;
 @ConfigurationProperties(prefix = "pay.alipay")
 public class AlipayProperties {
 
-	/** 支付宝gatewayUrl */
+	/** 支付宝的请求网关 gatewayUrl   https://openapi.alipaydev.com/gateway.do*/
 	private String gatewayUrl;
 	/** 商户应用id */
 	private String appid;

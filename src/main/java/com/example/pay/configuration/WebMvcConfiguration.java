@@ -19,6 +19,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
     protected void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/gotoWapPage").setViewName("gotoWapPay");
         registry.addViewController("/gotoPagePage").setViewName("gotoPagePay");
+        registry.addViewController("/toPay").setViewName("toPay");
         super.addViewControllers(registry);
     }
 }
